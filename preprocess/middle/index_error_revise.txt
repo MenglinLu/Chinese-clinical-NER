@@ -1,0 +1,141 @@
+errorline:17:129-132:130-132***errorentity:*** 胃体trueentity:***胃体
+errorline:17:174-198:175-198***errorentity:*** 肝总动脉旁(0/1)、 胃大弯(0/1)淋巴结trueentity:***肝总动脉旁(0/1)、 胃大弯(0/1)淋巴结
+errorline:23:85-102:86-102***errorentity:*** 结肠腺癌(中低分化),浸润溃疡型trueentity:***结肠腺癌(中低分化),浸润溃疡型
+errorline:35:304-340:303-340***errorentity:***上段食管旁”(3个)、“贲门周围”(4个)、“胃右动脉旁”(8个)淋巴结
+errorline:56:258-262:258-261***errorentity:***替吉奥 trueentity:***替吉奥
+errorline:59:362-366:362-365***errorentity:***替吉奥 trueentity:***替吉奥
+errorline:63:154-167:153-167***errorentity:***胃第六组”(1/1)淋巴结
+errorline:64:166-172:165-172***errorentity:***三组”淋巴结
+errorline:64:187-197:186-197***errorentity:***四组”(5个)淋巴结
+errorline:67:260-266:261-266***errorentity:*** 一站淋巴结trueentity:***一站淋巴结
+errorline:71:162-175:161-175***errorentity:***一站”(1/12个)淋巴结
+errorline:77:134-158:133-158***errorentity:***五组”(1/1个)、“第六组”(2/2个)淋巴结
+errorline:103:329-341:328-341***errorentity:***胃第六组”(1个)淋巴结
+errorline:131:78-88:77-88***errorentity:***姑息性“乙状结肠切除
+errorline:143:185-194:186-194***errorentity:***(右结肠根部淋巴结
+errorline:154:142-180:143-180***errorentity:***。一组(7个)、三组(2个)、四组(4个)、五组(1个)及六组(2个)淋巴结trueentity:***一组(7个)、三组(2个)、四组(4个)、五组(1个)及六组(2个)淋巴结
+errorline:157:143-170:144-170***errorentity:*** 一站(5个)、中央组(11个)、中间组(1个)淋巴结trueentity:***一站(5个)、中央组(11个)、中间组(1个)淋巴结
+errorline:160:255-262:254-262***errorentity:***第7组)淋巴结
+errorline:165:327-361:328-361***errorentity:*** 肠壁一站(8个)、二站(4个)、三站(3个)、中间组(5个)淋巴结trueentity:***肠壁一站(8个)、二站(4个)、三站(3个)、中间组(5个)淋巴结
+errorline:168:492-496:492-495***errorentity:***希罗达 trueentity:***希罗达
+errorline:178:92-103:93-103***errorentity:***,肠系膜及腹膜后淋巴结trueentity:***肠系膜及腹膜后淋巴结
+errorline:196:31-47:31-48***errorentity:***腔镜上直肠根治术(dixon手术
+errorline:220:130-143:131-143***errorentity:*** 肠壁一站(10个)淋巴结trueentity:***肠壁一站(10个)淋巴结
+errorline:227:242-246:242-245***errorentity:***替吉奥 trueentity:***替吉奥
+errorline:234:230-240:231-240***errorentity:*** 肠溃疡型中分化腺癌trueentity:***肠溃疡型中分化腺癌
+errorline:250:198-204:198-203***errorentity:***ca199 trueentity:***ca199
+errorline:254:71-77:71-76***errorentity:***下腹部平扫+trueentity:***下腹部平扫
+errorline:260:34-50:34-49***errorentity:***腹腔镜上直肠癌根治术dixon”
+errorline:261:43-56:42-56***errorentity:***左半结肠)溃疡型中分化腺癌
+errorline:271:186-192:186-191***errorentity:***5% gw trueentity:***5% gw
+errorline:287:243-247:243-246***errorentity:***替吉奥 trueentity:***替吉奥
+errorline:295:412-416:412-415***errorentity:***希罗达 trueentity:***希罗达
+errorline:309:73-96:73-95***errorentity:***(胃幽门小弯侧)腺癌(中度分化),浸润溃疡型,trueentity:***(胃幽门小弯侧)腺癌(中度分化),浸润溃疡型
+errorline:329:879-884:879-883***errorentity:***癌胚抗原 trueentity:***癌胚抗原
+errorline:337:324-328:324-327***errorentity:***华法林 trueentity:***华法林
+errorline:337:337-342:337-341***errorentity:***阿卡波糖 trueentity:***阿卡波糖
+errorline:348:114-119:114-119***errorentity:***hco3-trueentity:***hco3
+errorline:360:164-169:165-169***errorentity:***.胃体隆起trueentity:***胃体隆起
+errorline:378:111-118:111-117***errorentity:***贲门肿瘤可能?trueentity:***贲门肿瘤可能
+errorline:399:338-343:338-342***errorentity:***频发室早?trueentity:***频发室早
+errorline:415:28-35:28-34***errorentity:***直肠癌根治术(
+errorline:419:211-223:210-223***errorentity:***食管乳头状瘤”胃镜上切除
+errorline:420:52-80:52-81***errorentity:***宫颈及宫颈管部分鳞状下皮高级别下皮内瘤变(ciniii级
+errorline:422:150-154:150-153***errorentity:***淀粉酶 trueentity:***淀粉酶
+errorline:474:247-260:247-259***errorentity:***冠状动脉粥样硬化性心脏病 trueentity:***冠状动脉粥样硬化性心脏病
+errorline:496:282-286:282-285***errorentity:***希罗达 trueentity:***希罗达
+errorline:506:211-215:211-214***errorentity:***希罗达 trueentity:***希罗达
+errorline:537:524-528:524-527***errorentity:***wbc trueentity:***wbc
+errorline:540:441-444:442-444***errorentity:*** cttrueentity:***ct
+errorline:551:182-186:182-185***errorentity:***希罗达 trueentity:***希罗达
+errorline:572:204-208:204-207***errorentity:***肝s8 trueentity:***肝s8
+errorline:590:127-135:128-135***errorentity:***.浅表萎缩性胃炎trueentity:***浅表萎缩性胃炎
+errorline:591:36-43:36-42***errorentity:***溃疡性直肠炎、trueentity:***溃疡性直肠炎
+errorline:603:56-58:57-58***errorentity:***:胃trueentity:***胃
+errorline:603:73-78:74-78***errorentity:***:印戒细胞trueentity:***印戒细胞
+errorline:603:100-109:101-109***errorentity:***:(胃角)印戒细胞trueentity:***(胃角)印戒细胞
+errorline:603:111-118:112-119***errorentity:***,全腹部增强ctrueentity:***全腹部增强c
+errorline:603:123-125:124-125***errorentity:***.胃trueentity:***胃
+errorline:603:144-147:145-147***errorentity:***.子宫trueentity:***子宫
+errorline:603:160-162:161-163***errorentity:***,子trueentity:***子
+errorline:603:170-174:171-175***errorentity:***,子宫肌trueentity:***子宫肌
+errorline:603:177-186:178-186***errorentity:***.腹膜后多发小淋巴trueentity:***腹膜后多发小淋巴
+errorline:603:256-262:257-262***errorentity:***:胃印戒细胞trueentity:***胃印戒细胞
+errorline:603:291-299:292-299***errorentity:***。胃大、小弯淋巴trueentity:***胃大、小弯淋巴
+errorline:603:409-410:410-412***errorentity:***、trueentity:***
+errorline:603:439-443:440-444***errorentity:***“胃癌术
+errorline:603:470-471:471-472***errorentity:***,trueentity:***
+errorline:646:51-62:51-63***errorentity:***胃癌根治术(远端胃大切
+errorline:652:63-69:63-68***errorentity:***ca724 trueentity:***ca724
+errorline:652:138-144:139-144***errorentity:*** ca199trueentity:***ca199
+errorline:664:149-153:149-152***errorentity:***替吉奥 trueentity:***替吉奥
+errorline:664:237-241:237-240***errorentity:***wbc trueentity:***wbc
+errorline:664:251-255:252-255***errorentity:*** plttrueentity:***plt
+errorline:664:422-428:422-429***errorentity:***白细胞总数 trueentity:***白细胞总数
+errorline:666:285-289:285-288***errorentity:***alt trueentity:***alt
+errorline:668:119-124:120-123***errorentity:*** cea trueentity:***cea
+errorline:668:432-439:433-439***errorentity:*** 腹盆 ,cttrueentity:***腹盆 ,ct
+errorline:675:96-104:97-104***errorentity:***:食管粘膜慢性炎trueentity:***食管粘膜慢性炎
+errorline:676:447-454:449-454***errorentity:***  腹盆,cttrueentity:***腹盆,ct
+errorline:679:234-239:234-238***errorentity:***ts-1 trueentity:***ts-1
+errorline:683:903-907:903-906***errorentity:***肝s8 trueentity:***肝s8
+errorline:686:492-499:493-498***errorentity:*** ca199 trueentity:***ca199
+errorline:687:212-216:213-216***errorentity:*** afptrueentity:***afp
+errorline:689:544-551:544-550***errorentity:***肠腺癌肝转移,trueentity:***肠腺癌肝转移
+errorline:693:101-112:100-112***errorentity:***升结肠)管状腺瘤,i级
+errorline:695:254-258:254-257***errorentity:***肝s6 trueentity:***肝s6
+errorline:695:575-588:575-587***errorentity:***肝s5、s6、s7、s8 trueentity:***肝s5、s6、s7、s8
+errorline:696:281-287:282-287***errorentity:*** ca242trueentity:***ca242
+errorline:700:94-110:93-110***errorentity:***左侧口口咽部)非角化型鳞状细胞癌
+errorline:703:60-72:60-71***errorentity:***小肠隆起型高中分化腺癌,trueentity:***小肠隆起型高中分化腺癌
+errorline:705:87-91:87-90***errorentity:***afp trueentity:***afp
+errorline:705:136-141:136-140***errorentity:***贲门溃疡,trueentity:***贲门溃疡
+errorline:708:400-404:401-404***errorentity:*** ceatrueentity:***cea
+errorline:708:655-660:656-659***errorentity:*** cea trueentity:***cea
+errorline:708:665-671:666-671***errorentity:*** ca199trueentity:***ca199
+errorline:708:687-691:688-691***errorentity:*** plttrueentity:***plt
+errorline:708:751-755:751-754***errorentity:***plt trueentity:***plt
+errorline:708:822-827:823-827***errorentity:*** 总胆红素trueentity:***总胆红素
+errorline:708:842-852:842-851***errorentity:***门冬氨酸氨基转移酶 trueentity:***门冬氨酸氨基转移酶
+errorline:708:911-918:912-918***errorentity:*** ca72.4trueentity:***ca72.4
+errorline:708:1204-1208:1205-1208***errorentity:*** ceatrueentity:***cea
+errorline:708:1250-1254:1250-1253***errorentity:***nse trueentity:***nse
+errorline:708:1396-1401:1396-1400***errorentity:***ibil trueentity:***ibil
+errorline:708:1457-1461:1457-1460***errorentity:***alt trueentity:***alt
+errorline:708:1632-1637:1632-1636***errorentity:***dbil trueentity:***dbil
+errorline:708:1642-1646:1642-1645***errorentity:***alt trueentity:***alt
+errorline:708:1649-1653:1649-1652***errorentity:***ast trueentity:***ast
+errorline:709:332-335:333-335***errorentity:*** 宫颈trueentity:***宫颈
+errorline:717:56-60:56-59***errorentity:***cea trueentity:***cea
+errorline:725:351-358:351-357***errorentity:***癌抗原125 trueentity:***癌抗原125
+errorline:726:42-54:42-55***errorentity:***直肠癌根治术(dixon
+errorline:727:210-216:210-215***errorentity:***红细胞压积 trueentity:***红细胞压积
+errorline:733:141-145:141-144***errorentity:***胃息肉,trueentity:***胃息肉
+errorline:734:220-223:221-223***errorentity:*** cttrueentity:***ct
+errorline:736:50-56:50-55***errorentity:***ca724 trueentity:***ca724
+errorline:738:215-219:215-218***errorentity:***wbc trueentity:***wbc
+errorline:747:383-388:384-387***errorentity:*** cea trueentity:***cea
+errorline:747:546-550:546-549***errorentity:***希罗达 trueentity:***希罗达
+errorline:747:970-975:970-974***errorentity:***总胆红素 trueentity:***总胆红素
+errorline:747:1163-1169:1163-1168***errorentity:***直接胆红素 trueentity:***直接胆红素
+errorline:763:184-194:185-194***errorentity:***;肝、两肾多发小囊肿trueentity:***肝、两肾多发小囊肿
+errorline:774:219-222:220-222***errorentity:*** cttrueentity:***ct
+errorline:774:274-277:275-277***errorentity:*** cttrueentity:***ct
+errorline:781:476-480:476-479***errorentity:***希罗达 trueentity:***希罗达
+errorline:784:172-178:172-177***errorentity:***ca199 trueentity:***ca199
+errorline:784:181-185:182-185***errorentity:*** ceatrueentity:***cea
+errorline:787:408-414:408-413***errorentity:***血小板总数 trueentity:***血小板总数
+errorline:788:285-292:285-291***errorentity:***ca72-4 trueentity:***ca72-4
+errorline:795:157-162:158-162***errorentity:*** 两肾囊肿trueentity:***两肾囊肿
+errorline:801:236-240:236-239***errorentity:***替吉奥 trueentity:***替吉奥
+errorline:822:288-292:288-291***errorentity:***肝s6 trueentity:***肝s6
+errorline:848:83-102:82-102***errorentity:***胃角)高级别下皮内瘤变(重度异型增生)
+errorline:894:386-388:387-388***errorentity:*** 肠trueentity:***肠
+errorline:901:223-235:224-235***errorentity:***:左卵巢中分化浆液性腺癌trueentity:***左卵巢中分化浆液性腺癌
+errorline:907:466-471:467-470***errorentity:*** cea trueentity:***cea
+errorline:908:252-256:253-256***errorentity:*** 结肠肝trueentity:***结肠肝
+errorline:919:133-138:134-138***errorentity:*** 胃癌术后trueentity:***胃癌术后
+errorline:922:276-282:276-281***errorentity:***ca199 trueentity:***ca199
+errorline:949:179-183:179-182***errorentity:***尿素氮 trueentity:***尿素氮
+errorline:970:275-282:275-281***errorentity:***肺内转移可能?trueentity:***肺内转移可能
+errorline:997:342-346:342-345***errorentity:***肠梗阻?trueentity:***肠梗阻
