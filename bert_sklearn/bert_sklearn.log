@@ -1,0 +1,233 @@
+07/09/2019 00:02:40 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=5,
+          eval_batch_size=16, fp16=False, gradient_accumulation_steps=1,
+          ignore_label=['O'], label_list=None, learning_rate=2e-05,
+          local_rank=-1, logfile='bert_sklearn.log', loss_scale=0,
+          max_seq_length=128, num_mlp_hiddens=500, num_mlp_layers=0,
+          random_state=42, restore_file=None, train_batch_size=16,
+          use_cuda=True, validation_fraction=0.1, warmup_proportion=0.1)
+07/09/2019 00:02:40 - WARNING - bert_sklearn.model.pytorch_pretrained.tokenization -   The pre-trained model you are loading is an uncased model but you have set `do_lower_case` to False. We are setting `do_lower_case=True` for you but you may want to check this behavior.
+07/09/2019 00:02:40 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt not found in cache, downloading to /tmp/tmpd8sf8f3n
+07/09/2019 00:02:41 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   copying /tmp/tmpd8sf8f3n to cache at /home/eileenlu/.pytorch_pretrained_bert/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/09/2019 00:02:41 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   creating metadata file for /home/eileenlu/.pytorch_pretrained_bert/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/09/2019 00:02:41 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   removing temp file /tmp/tmpd8sf8f3n
+07/09/2019 00:02:41 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at /home/eileenlu/.pytorch_pretrained_bert/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/09/2019 00:02:45 - WARNING - bert_sklearn.model.pytorch_pretrained.tokenization -   The pre-trained model you are loading is an uncased model but you have set `do_lower_case` to False. We are setting `do_lower_case=True` for you but you may want to check this behavior.
+07/09/2019 00:02:45 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at /home/eileenlu/.pytorch_pretrained_bert/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/09/2019 00:02:45 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz not found in cache, downloading to /tmp/tmpmatcg07k
+07/09/2019 00:03:28 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   copying /tmp/tmpmatcg07k to cache at /home/eileenlu/.pytorch_pretrained_bert/distributed_-1/42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+07/09/2019 00:03:28 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   creating metadata file for /home/eileenlu/.pytorch_pretrained_bert/distributed_-1/42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+07/09/2019 00:03:28 - INFO - bert_sklearn.model.pytorch_pretrained.file_utils -   removing temp file /tmp/tmpmatcg07k
+07/09/2019 00:03:28 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz from cache at /home/eileenlu/.pytorch_pretrained_bert/distributed_-1/42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+07/09/2019 00:03:28 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   extracting archive file /home/eileenlu/.pytorch_pretrained_bert/distributed_-1/42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f to temp dir /tmp/tmpp_e3ep6r
+07/09/2019 00:03:32 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+07/09/2019 00:03:36 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.weight', 'mlp.bias']
+07/09/2019 00:03:36 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+07/09/2019 00:03:36 - INFO - root -   train data size: 4602, validation data size: 511
+07/09/2019 00:03:40 - INFO - root -   Number of train optimization steps is : 1435
+07/09/2019 00:06:38 - INFO - root -   Epoch 1, Train loss: 0.0450, Val loss: 0.0148, Val accy: 95.98%, f1: 87.84
+07/09/2019 00:09:31 - INFO - root -   Epoch 2, Train loss: 0.0119, Val loss: 0.0126, Val accy: 96.79%, f1: 90.15
+07/09/2019 00:12:23 - INFO - root -   Epoch 3, Train loss: 0.0077, Val loss: 0.0134, Val accy: 96.49%, f1: 89.69
+07/09/2019 00:15:16 - INFO - root -   Epoch 4, Train loss: 0.0057, Val loss: 0.0137, Val accy: 96.91%, f1: 90.65
+07/09/2019 00:17:58 - WARNING - bert_sklearn.model.pytorch_pretrained.optimization -   Training beyond specified 't_total' steps with schedule 'warmup_linear'. Learning rate set to 0.0. Please set 't_total' of BertAdam correctly.
+07/09/2019 00:17:59 - WARNING - bert_sklearn.model.pytorch_pretrained.optimization -   Training beyond specified 't_total' steps with schedule 'warmup_linear'. Learning rate set to 0.0. Please set 't_total' of BertAdam correctly.
+07/09/2019 00:17:59 - WARNING - bert_sklearn.model.pytorch_pretrained.optimization -   Training beyond specified 't_total' steps with schedule 'warmup_linear'. Learning rate set to 0.0. Please set 't_total' of BertAdam correctly.
+07/09/2019 00:18:00 - WARNING - bert_sklearn.model.pytorch_pretrained.optimization -   Training beyond specified 't_total' steps with schedule 'warmup_linear'. Learning rate set to 0.0. Please set 't_total' of BertAdam correctly.
+07/09/2019 00:18:08 - INFO - root -   Epoch 5, Train loss: 0.0044, Val loss: 0.0143, Val accy: 96.89%, f1: 90.60
+07/09/2019 00:23:46 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=5,
+          eval_batch_size=16, fp16=False, gradient_accumulation_steps=1,
+          ignore_label=['O'],
+          label_list=array(['B_ÂÆûÈ™åÂÆ§Ê£ÄÈ™å', 'B_ÂΩ±ÂÉèÊ£ÄÊü•', 'B_ÊâãÊúØ', 'B_ÁñæÁóÖÂíåËØäÊñ≠', 'B_ËçØÁâ©', 'B_Ëß£ÂâñÈÉ®‰Ωç', 'I_ÂÆûÈ™åÂÆ§Ê£ÄÈ™å',
+       'I_ÂΩ±ÂÉèÊ£ÄÊü•', 'I_ÊâãÊúØ', 'I_ÁñæÁóÖÂíåËØäÊñ≠', 'I_ËçØÁâ©', 'I_Ëß£ÂâñÈÉ®‰Ωç', 'O'],
+      dtype='<U7'),
+          learning_rate=2e-05, local_rank=-1, logfile='bert_sklearn.log',
+          loss_scale=0, max_seq_length=400, num_mlp_hiddens=500,
+          num_mlp_layers=0, random_state=42, restore_file=None,
+          train_batch_size=16, use_cuda=True, validation_fraction=0.1,
+          warmup_proportion=0.1)
+07/29/2019 16:37:09 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=10,
+                    eval_batch_size=16, fp16=False,
+                    gradient_accumulation_steps=1, ignore_label=['O'],
+                    label_list=array(['B_ µ—È “ºÏ—È', 'B_”∞œÒºÏ≤È', 'B_ ÷ ı', 'B_º≤≤°∫Õ’Ô∂œ', 'B_“©ŒÔ', 'B_Ω‚∆ ≤øŒª',
+       'I_ µ—È “ºÏ—È', 'I_”∞œÒºÏ≤È', 'I_ ÷ ı', 'I_º≤≤°∫Õ’Ô∂œ', 'I_“©ŒÔ', 'I_Ω‚∆ ≤øŒª', 'O'],
+      dtype='<U7'),
+                    learning_rate=2e-05, local_rank=-1,
+                    logfile='bert_sklearn.log', loss_scale=0,
+                    max_seq_length=500, num_mlp_hiddens=500, num_mlp_layers=0,
+                    random_state=42, restore_file=None, train_batch_size=16,
+                    use_cuda=True, validation_fraction=0.1,
+                    warmup_proportion=0.1)
+07/29/2019 16:41:00 - WARNING - bert_sklearn.model.pytorch_pretrained.tokenization -   The pre-trained model you are loading is an uncased model but you have set `do_lower_case` to False. We are setting `do_lower_case=True` for you but you may want to check this behavior.
+07/29/2019 16:41:03 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at C:\Users\eileenlu\.pytorch_pretrained_bert\8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/29/2019 16:41:04 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz from cache at C:\Users\eileenlu\.pytorch_pretrained_bert\distributed_-1\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+07/29/2019 16:41:04 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   extracting archive file C:\Users\eileenlu\.pytorch_pretrained_bert\distributed_-1\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f to temp dir C:\Users\eileenlu\AppData\Local\Temp\tmp88if_7tf
+07/29/2019 16:41:07 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+07/29/2019 16:41:09 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=10,
+                    eval_batch_size=16, fp16=False,
+                    gradient_accumulation_steps=1, ignore_label=['O'],
+                    label_list=array(['B_ µ—È “ºÏ—È', 'B_”∞œÒºÏ≤È', 'B_ ÷ ı', 'B_º≤≤°∫Õ’Ô∂œ', 'B_“©ŒÔ', 'B_Ω‚∆ ≤øŒª',
+       'I_ µ—È “ºÏ—È', 'I_”∞œÒºÏ≤È', 'I_ ÷ ı', 'I_º≤≤°∫Õ’Ô∂œ', 'I_“©ŒÔ', 'I_Ω‚∆ ≤øŒª', 'O'],
+      dtype='<U7'),
+                    learning_rate=2e-05, local_rank=-1,
+                    logfile='bert_sklearn.log', loss_scale=0,
+                    max_seq_length=500, num_mlp_hiddens=500, num_mlp_layers=0,
+                    random_state=42, restore_file=None, train_batch_size=16,
+                    use_cuda=True, validation_fraction=0.1,
+                    warmup_proportion=0.1)
+07/29/2019 16:42:19 - WARNING - bert_sklearn.model.pytorch_pretrained.tokenization -   The pre-trained model you are loading is an uncased model but you have set `do_lower_case` to False. We are setting `do_lower_case=True` for you but you may want to check this behavior.
+07/29/2019 16:42:22 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at C:\Users\eileenlu\.pytorch_pretrained_bert\8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/29/2019 16:42:23 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz from cache at C:\Users\eileenlu\.pytorch_pretrained_bert\distributed_-1\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+07/29/2019 16:42:23 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   extracting archive file C:\Users\eileenlu\.pytorch_pretrained_bert\distributed_-1\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f to temp dir C:\Users\eileenlu\AppData\Local\Temp\tmp4gwns1do
+07/29/2019 16:42:26 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+07/29/2019 16:42:27 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=10,
+                    eval_batch_size=16, fp16=False,
+                    gradient_accumulation_steps=1, ignore_label=['O'],
+                    label_list=array(['B_ µ—È “ºÏ—È', 'B_”∞œÒºÏ≤È', 'B_ ÷ ı', 'B_º≤≤°∫Õ’Ô∂œ', 'B_“©ŒÔ', 'B_Ω‚∆ ≤øŒª',
+       'I_ µ—È “ºÏ—È', 'I_”∞œÒºÏ≤È', 'I_ ÷ ı', 'I_º≤≤°∫Õ’Ô∂œ', 'I_“©ŒÔ', 'I_Ω‚∆ ≤øŒª', 'O'],
+      dtype='<U7'),
+                    learning_rate=2e-05, local_rank=-1,
+                    logfile='bert_sklearn.log', loss_scale=0,
+                    max_seq_length=500, num_mlp_hiddens=500, num_mlp_layers=0,
+                    random_state=42, restore_file=None, train_batch_size=16,
+                    use_cuda=True, validation_fraction=0.1,
+                    warmup_proportion=0.1)
+07/30/2019 11:09:46 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=10,
+                    eval_batch_size=16, fp16=False,
+                    gradient_accumulation_steps=1, ignore_label=['O'],
+                    label_list=array(['B_ µ—È “ºÏ—È', 'B_”∞œÒºÏ≤È', 'B_ ÷ ı', 'B_º≤≤°∫Õ’Ô∂œ', 'B_“©ŒÔ', 'B_Ω‚∆ ≤øŒª',
+       'I_ µ—È “ºÏ—È', 'I_”∞œÒºÏ≤È', 'I_ ÷ ı', 'I_º≤≤°∫Õ’Ô∂œ', 'I_“©ŒÔ', 'I_Ω‚∆ ≤øŒª', 'O'],
+      dtype='<U7'),
+                    learning_rate=2e-05, local_rank=-1,
+                    logfile='bert_sklearn.log', loss_scale=0,
+                    max_seq_length=500, num_mlp_hiddens=500, num_mlp_layers=0,
+                    random_state=42, restore_file=None, train_batch_size=16,
+                    use_cuda=True, validation_fraction=0.1,
+                    warmup_proportion=0.1)
+07/30/2019 11:09:57 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=10,
+                    eval_batch_size=16, fp16=False,
+                    gradient_accumulation_steps=1, ignore_label=['O'],
+                    label_list=array(['B_ µ—È “ºÏ—È', 'B_”∞œÒºÏ≤È', 'B_ ÷ ı', 'B_º≤≤°∫Õ’Ô∂œ', 'B_“©ŒÔ', 'B_Ω‚∆ ≤øŒª',
+       'I_ µ—È “ºÏ—È', 'I_”∞œÒºÏ≤È', 'I_ ÷ ı', 'I_º≤≤°∫Õ’Ô∂œ', 'I_“©ŒÔ', 'I_Ω‚∆ ≤øŒª', 'O'],
+      dtype='<U7'),
+                    learning_rate=2e-05, local_rank=-1,
+                    logfile='bert_sklearn.log', loss_scale=0,
+                    max_seq_length=500, num_mlp_hiddens=500, num_mlp_layers=0,
+                    random_state=42, restore_file=None, train_batch_size=16,
+                    use_cuda=True, validation_fraction=0.1,
+                    warmup_proportion=0.1)
+07/30/2019 11:10:59 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=10,
+                    eval_batch_size=16, fp16=False,
+                    gradient_accumulation_steps=1, ignore_label=['O'],
+                    label_list=array(['B_ µ—È “ºÏ—È', 'B_”∞œÒºÏ≤È', 'B_ ÷ ı', 'B_º≤≤°∫Õ’Ô∂œ', 'B_“©ŒÔ', 'B_Ω‚∆ ≤øŒª',
+       'I_ µ—È “ºÏ—È', 'I_”∞œÒºÏ≤È', 'I_ ÷ ı', 'I_º≤≤°∫Õ’Ô∂œ', 'I_“©ŒÔ', 'I_Ω‚∆ ≤øŒª', 'O'],
+      dtype='<U7'),
+                    learning_rate=2e-05, local_rank=-1,
+                    logfile='bert_sklearn.log', loss_scale=0,
+                    max_seq_length=500, num_mlp_hiddens=500, num_mlp_layers=0,
+                    random_state=42, restore_file=None, train_batch_size=16,
+                    use_cuda=True, validation_fraction=0.1,
+                    warmup_proportion=0.1)
+07/30/2019 12:23:01 - INFO - root -   Loading model:
+BertTokenClassifier(bert_model='bert-base-chinese', epochs=20,
+                    eval_batch_size=16, fp16=False,
+                    gradient_accumulation_steps=1, ignore_label=['O'],
+                    label_list=None, learning_rate=2e-05, local_rank=-1,
+                    logfile='bert_sklearn.log', loss_scale=0,
+                    max_seq_length=128, num_mlp_hiddens=500, num_mlp_layers=0,
+                    random_state=42, restore_file=None, train_batch_size=16,
+                    use_cuda=True, validation_fraction=0.1,
+                    warmup_proportion=0.1)
+07/30/2019 12:23:05 - WARNING - bert_sklearn.model.pytorch_pretrained.tokenization -   The pre-trained model you are loading is an uncased model but you have set `do_lower_case` to False. We are setting `do_lower_case=True` for you but you may want to check this behavior.
+07/30/2019 12:23:06 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at C:\Users\eileenlu\.pytorch_pretrained_bert\8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/30/2019 12:23:47 - WARNING - bert_sklearn.model.pytorch_pretrained.tokenization -   The pre-trained model you are loading is an uncased model but you have set `do_lower_case` to False. We are setting `do_lower_case=True` for you but you may want to check this behavior.
+07/30/2019 12:23:48 - INFO - bert_sklearn.model.pytorch_pretrained.tokenization -   loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at C:\Users\eileenlu\.pytorch_pretrained_bert\8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+07/30/2019 12:23:49 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz from cache at C:\Users\eileenlu\.pytorch_pretrained_bert\distributed_-1\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f
+07/30/2019 12:23:49 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   extracting archive file C:\Users\eileenlu\.pytorch_pretrained_bert\distributed_-1\42d4a64dda3243ffeca7ec268d5544122e67d9d06b971608796b483925716512.02ac7d664cff08d793eb00d6aac1d04368a1322435e5fe0a27c70b0b3a85327f to temp dir C:\Users\eileenlu\AppData\Local\Temp\tmpfjbw05em
+07/30/2019 12:23:52 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+07/30/2019 12:23:54 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights of BertPlusMLP not initialized from pretrained model: ['mlp.weight', 'mlp.bias']
+07/30/2019 12:23:54 - INFO - bert_sklearn.model.pytorch_pretrained.modeling -   Weights from pretrained model not used in BertPlusMLP: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+07/30/2019 12:23:54 - INFO - root -   train data size: 6222, validation data size: 691
+07/30/2019 12:23:54 - INFO - root -   Number of train optimization steps is : 7760
